@@ -53,7 +53,7 @@ for i=1:size(composition,1)
         if j<size(composition,2)
             fprintf(',')
         else
-            fprintf('}')
+            fprintf('},')
         end
     end
     if i<size(composition,1)
